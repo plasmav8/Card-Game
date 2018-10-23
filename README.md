@@ -27,8 +27,8 @@ public class game{ // This is the class
   System.out.println("\n");
 
 
-
   createDeck();
+  System.out.println(deck);
   shuffleDeck();
   System.out.println(deck);
   System.out.println(deck.size());
@@ -47,7 +47,7 @@ public class game{ // This is the class
 
 
   public static void createDeck(){     //adds cards to the deck ArrayList
-    for (int i = 1;i<=9 ;i++ ) {
+    for (int i = 2;i<=10 ;i++ ) {
       deck.add(i);
       deck.add(i);                //adds face value cards
       deck.add(i);
